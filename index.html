@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>My Todo List</title>
+  <style>
+    .app-title {
+      font-size: 40px;
+    }
+    .btn-add{
+      background-color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="appTitle" class="app-title">
+    My Todo List (
+    <span id="itemCount">0</span>)
+  </p>
+  <input id="newTodo"/>
+  <button id="addTodo" class="btn-add" disabled="disabled">Add todo</button>
+  <ul id="todoList"></ul>
+  <a id="deleteAllLink" href="#">delete all</a>
+  <a id="sortLink" href="#">sort list</a>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+<script>
+  let input = document.getElementById("newTodo");
+  let button = document.getElementById("addTodo");
+
+  input.addEventListener("change", buttonstatusHandle);
+  
+  function buttonstatusHandle() {
+      if(document.getElementById("newTodo").value === "") {
+          button.disabled = true;
+      } else {
+          button.disabled = false;
+      }
+  }
+  </script>
+</html>

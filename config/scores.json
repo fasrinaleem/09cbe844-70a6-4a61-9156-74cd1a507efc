@@ -1,0 +1,34 @@
+{
+  "bugs": [
+    {
+      "desc": "Task-1: Change document title",
+      "score": 10
+    },
+    {
+      "desc": "Task-1: Change display title",
+      "score": 10
+    },
+    {
+      "desc": "Task-3: Fix the JavaScript item count issue",
+      "score": 10
+    },
+    {
+      "desc": "Task-2: Change button background color",
+      "score": 10
+    }
+  ],
+  "features": [
+    {
+      "desc": "Task-4: Disable button until Todo description is entered",
+      "score": 20
+    },
+    {
+      "desc": "Task-5: Implement Todo items 'delete all' functionality",
+      "score": 20
+    },
+    {
+      "desc": "Task-6: Implement 'sort' functionality",
+      "score": 20
+    }
+  ]
+}

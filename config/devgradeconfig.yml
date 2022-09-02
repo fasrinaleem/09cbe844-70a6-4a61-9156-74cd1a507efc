@@ -1,0 +1,8 @@
+version: 1.0
+
+template_name: 99x-Awesome-JS-Template-angular
+
+stack: angular
+
+test_files:
+  - "**/*.test.js"
